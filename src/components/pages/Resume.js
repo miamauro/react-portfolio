@@ -3,7 +3,18 @@ import React from "react";
 function Resume() {
   return (
     <>
-      <a href="#">Resume</a>
+      <p>
+        Please find my{" "}
+        <span>
+          <a
+            href="https://www.linkedin.com/in/mia-mauro-439a2626b/"
+            target="_blank"
+          >
+            resume
+          </a>
+        </span>{" "}
+        on LinkedIn.
+      </p>
       <div>
         <h2>Front-End Skills</h2>
         <ul>
