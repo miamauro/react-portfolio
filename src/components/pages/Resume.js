@@ -1,20 +1,12 @@
 import React from "react";
+import pdf from "../../docs/Resume.pdf";
 
 function Resume() {
   return (
     <>
-      <p>
-        Please find my{" "}
-        <span>
-          <a
-            href="https://www.linkedin.com/in/mia-mauro-439a2626b/"
-            target="_blank"
-          >
-            resume
-          </a>
-        </span>{" "}
-        on LinkedIn.
-      </p>
+      <a href={pdf} target="_blank">
+        Download my resume.
+      </a>
       <div>
         <h2>Front-End Skills</h2>
         <ul>

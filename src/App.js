@@ -19,7 +19,7 @@ function App() {
           path="/react-portfolio/portfolio"
           element={<Portfolio />}
         />
-        {/* <Route exact path="/react-portfolio/contact" element={<Contact />} /> */}
+        <Route exact path="/react-portfolio/contact" element={<Contact />} />
         <Route exact path="/react-portfolio/resume" element={<Resume />} />
       </Routes>
       <Footer />
