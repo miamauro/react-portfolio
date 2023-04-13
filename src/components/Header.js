@@ -1,12 +1,13 @@
-import React from 'react'
-import Nav from "./Nav"
+import React from "react";
+import Nav from "./Nav";
 
 function Header() {
   return (
     <>
-    <Nav />
+      <h1>Mia Mauro</h1>
+      <Nav />
     </>
-  )
+  );
 }
 
-export default Header
+export default Header;
