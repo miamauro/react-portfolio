@@ -14,6 +14,16 @@ const projects = [
     link: "https://whispering-dawn-72162.herokuapp.com/",
     img: discoveringDenver,
   },
+  {
+    title: "Travel Buddy",
+    link: "https://hollyhleal.github.io/travel-buddy/",
+    img: travelBuddy,
+  },
+  {
+    title: "Discovering Denver",
+    link: "https://whispering-dawn-72162.herokuapp.com/",
+    img: discoveringDenver,
+  },
 ];
 
 function Portfolio() {

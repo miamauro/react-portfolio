@@ -18,7 +18,7 @@ function App() {
         {/* <Route exact path="/contact" element={<Contact />} /> */}
         {/* <Route exact path="/resume" element={<Resume />} /> */}
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   );
 }
