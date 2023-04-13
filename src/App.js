@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 import Contact from "./components/pages/Contact";
 import About from "./components/pages/About";
 import Resume from "./components/pages/Resume";
@@ -11,17 +11,27 @@ import Portfolio from "./components/pages/Portfolio";
 function App() {
   return (
     <Router>
-      <Header />
-      <Routes>
-        <Route exact path="/react-portfolio" element={<About />} />
-        <Route
-          exact
-          path="/react-portfolio/portfolio"
-          element={<Portfolio />}
-        />
-        <Route exact path="/react-portfolio/contact" element={<Contact />} />
-        <Route exact path="/react-portfolio/resume" element={<Resume />} />
-      </Routes>
+      <div className="row">
+        <div className="col-4">
+          <Header />
+        </div>
+        <div className="col-6">
+          <Routes>
+            <Route exact path="/react-portfolio" element={<About />} />
+            <Route
+              exact
+              path="/react-portfolio/portfolio"
+              element={<Portfolio />}
+            />
+            <Route
+              exact
+              path="/react-portfolio/contact"
+              element={<Contact />}
+            />
+            <Route exact path="/react-portfolio/resume" element={<Resume />} />
+          </Routes>
+        </div>
+      </div>
       <Footer />
     </Router>
   );

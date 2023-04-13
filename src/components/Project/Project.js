@@ -2,7 +2,7 @@ import React from "react";
 
 function Project(props) {
   return (
-    <div className="card col-4">
+    <div className="card" style={{ width: 300, margin: 15 }}>
       <img src={props.img} class="card-img-top" alt={props.title} />
       <div className="card-body">
         <h2 className="card-title">{props.title}</h2>

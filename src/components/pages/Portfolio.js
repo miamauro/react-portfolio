@@ -1,9 +1,21 @@
 import React from "react";
-import Project from "../Project";
+import Project from "../Project/Project";
 import travelBuddy from "../../images/travbuddy.png";
 import discoveringDenver from "../../images/discdenv.png";
 
 const projects = [
+  {
+    title: "Travel Buddy",
+    link: "https://hollyhleal.github.io/travel-buddy/",
+    repo: "https://github.com/miamauro/travel-buddy",
+    img: travelBuddy,
+  },
+  {
+    title: "Discovering Denver",
+    link: "https://whispering-dawn-72162.herokuapp.com/",
+    repo: "https://github.com/miamauro/discovering-denver",
+    img: discoveringDenver,
+  },
   {
     title: "Travel Buddy",
     link: "https://hollyhleal.github.io/travel-buddy/",
