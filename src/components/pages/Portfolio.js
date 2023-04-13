@@ -32,7 +32,7 @@ const projects = [
 
 function Portfolio() {
   return (
-    <div>
+    <div className="row">
       {projects.map((obj, i) => (
         <Project
           id={i}
