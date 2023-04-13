@@ -12,10 +12,10 @@ function App() {
   return (
     <Router>
       <div className="row">
-        <div className="col-4">
+        <div className="col col-3 text-end">
           <Header />
         </div>
-        <div className="col-6">
+        <div className="col-8 text-center">
           <Routes>
             <Route exact path="/react-portfolio" element={<About />} />
             <Route

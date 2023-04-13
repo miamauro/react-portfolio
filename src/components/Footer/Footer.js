@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="col">
+    <div className="col text-center">
       <a href="https://github.com/miamauro" target="_blank">
         <svg
           xmlns="http://www.w3.org/2000/svg"

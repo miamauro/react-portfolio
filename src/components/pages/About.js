@@ -5,12 +5,16 @@ function About() {
   return (
     <div>
       <img src={headshot} alt="headshot" height="300px"></img>
-      <h1>
+      <h2 style={{ margin: 15 }}>
         Hello! My name is Mia Mauro, and I'm currently studying web development
         in the University of Denver's Full-Stack Coding program. I live in Des
         Moines, Iowa, but was previously traveling the country full time as a
-        registered nurse.
-      </h1>
+        registered nurse. <br /> <br />
+        After four years in the healthcare industry, my love for learning lead
+        me to back to the classroom. I am thrilled to utilize my critical
+        thinking skills - along with a diverse range of talents - in a whole new
+        light! I look forward to connecting with you.
+      </h2>
     </div>
   );
 }
