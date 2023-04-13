@@ -13,10 +13,14 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route exact path="/" element={<About />} />
-        <Route exact path="/portfolio" element={<Portfolio />} />
-        {/* <Route exact path="/contact" element={<Contact />} /> */}
-        <Route exact path="/resume" element={<Resume />} />
+        <Route exact path="/react-portfolio" element={<About />} />
+        <Route
+          exact
+          path="/react-portfolio/portfolio"
+          element={<Portfolio />}
+        />
+        {/* <Route exact path="/react-portfolio/contact" element={<Contact />} /> */}
+        <Route exact path="/react-portfolio/resume" element={<Resume />} />
       </Routes>
       <Footer />
     </Router>
