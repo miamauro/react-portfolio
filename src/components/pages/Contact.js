@@ -8,24 +8,31 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_0znj3im",
-        "template_odmzh8n",
-        form.current,
-        "QZmR8uuIISovg6tAr"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    e.target.user_name.value = "";
-    e.target.user_email.value = "";
-    e.target.message.value = "";
+    let validEmail = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/;
+
+    if (e.target.user_email.value.match(validEmail)) {
+      emailjs
+        .sendForm(
+          "service_0znj3im",
+          "template_odmzh8n",
+          form.current,
+          "QZmR8uuIISovg6tAr"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+      e.target.user_name.value = "";
+      e.target.user_email.value = "";
+      e.target.message.value = "";
+    } else {
+      alert("You must enter a valid email address.");
+      return;
+    }
   };
 
   return (
