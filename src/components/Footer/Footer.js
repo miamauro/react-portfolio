@@ -13,7 +13,6 @@ function Footer() {
           xmlns="http://www.w3.org/2000/svg"
           width="36"
           height="36"
-          // fill="currentColor"
           className="bi bi-github"
           viewBox="0 0 16 16"
         >
@@ -29,7 +28,6 @@ function Footer() {
           xmlns="http://www.w3.org/2000/svg"
           width="36"
           height="36"
-          // fill="currentColor"
           className="bi bi-linkedin"
           viewBox="0 0 16 16"
         >
@@ -45,7 +43,6 @@ function Footer() {
           xmlns="http://www.w3.org/2000/svg"
           width="36"
           height="36"
-          // fill="currentColor"
           className="bi bi-twitter"
           viewBox="0 0 16 16"
         >
