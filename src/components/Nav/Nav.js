@@ -6,22 +6,22 @@ function Nav() {
   return (
     <ul className="nav flex-column">
       <li className="nav-link">
-        <NavLink to="/react-portfolio" className="test">
+        <NavLink to="/react-portfolio" className="navOpts">
           About
         </NavLink>
       </li>
       <li className="nav-link">
-        <NavLink to="/react-portfolio/portfolio" className="test">
+        <NavLink to="/react-portfolio/portfolio" className="navOpts">
           Portfolio
         </NavLink>
       </li>
       <li className="nav-link">
-        <NavLink to="/react-portfolio/contact" className="test">
+        <NavLink to="/react-portfolio/contact" className="navOpts">
           Contact
         </NavLink>
       </li>
       <li className="nav-link">
-        <NavLink to="/react-portfolio/resume" className="test">
+        <NavLink to="/react-portfolio/resume" className="navOpts">
           Resume
         </NavLink>
       </li>

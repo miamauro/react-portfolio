@@ -1,9 +1,10 @@
 import React from "react";
+import "./Footer.css";
 
 function Footer() {
   return (
     <div className="col text-center">
-      <a href="https://github.com/miamauro" target="_blank">
+      <a href="https://github.com/miamauro" target="_blank" className="footerIcon">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="36"

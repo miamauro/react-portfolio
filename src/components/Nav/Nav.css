@@ -1,13 +1,13 @@
-.test {
+.navOpts {
   text-decoration: none;
   font-size: 36px;
-  color: black;
+  color: #a57c8f;
 }
 
-.test:hover {
-  color: pink;
+.navOpts:hover {
+  color: #592d43;
 }
 
 .active {
-  color: pink;
+  color: #592d43;
 }
