@@ -1,5 +1,5 @@
 import React from "react";
-import pdf from "../../../docs/Resume.pdf";
+import pdf from "../../../docs/mauroResume.pdf";
 import "./Resume.css";
 
 function Resume() {
