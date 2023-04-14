@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.4f42585c.css",
-    "main.js": "/react-portfolio/static/js/main.85b27978.js",
+    "main.js": "/react-portfolio/static/js/main.fa8241c4.js",
     "static/media/travbuddy.png": "/react-portfolio/static/media/travbuddy.ba89d2e95f27eebfb9e3.png",
     "static/media/discdenv.png": "/react-portfolio/static/media/discdenv.253cda073345ea22e729.png",
     "static/media/headshot.jpeg": "/react-portfolio/static/media/headshot.8ab39a3fbab64e5803f1.jpeg",
@@ -9,13 +9,13 @@
     "static/media/regextut.png": "/react-portfolio/static/media/regextut.8a0ae8e30bdc44ed485b.png",
     "static/media/pwgen.png": "/react-portfolio/static/media/pwgen.9db856fe3e0c8a1f11f0.png",
     "static/media/codequiz.png": "/react-portfolio/static/media/codequiz.86638d024aa75dcda0ba.png",
-    "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.8fa505a1ed15d440f3c5.pdf",
+    "static/media/mauroResume.pdf": "/react-portfolio/static/media/mauroResume.986f620271237c0541ea.pdf",
     "index.html": "/react-portfolio/index.html",
     "main.4f42585c.css.map": "/react-portfolio/static/css/main.4f42585c.css.map",
-    "main.85b27978.js.map": "/react-portfolio/static/js/main.85b27978.js.map"
+    "main.fa8241c4.js.map": "/react-portfolio/static/js/main.fa8241c4.js.map"
   },
   "entrypoints": [
     "static/css/main.4f42585c.css",
-    "static/js/main.85b27978.js"
+    "static/js/main.fa8241c4.js"
   ]
 }
