@@ -15,7 +15,7 @@ function App() {
         <div className="col col-3 text-end">
           <Header />
         </div>
-        <div className="col-8 text-center">
+        <div className="col-8 text-center content">
           <Routes>
             <Route exact path="/react-portfolio" element={<About />} />
             <Route

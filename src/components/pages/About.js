@@ -1,11 +1,12 @@
 import React from "react";
 import headshot from "../../images/headshot.jpeg";
+import "./About.css"
 
 function About() {
   return (
     <div>
       <img src={headshot} alt="headshot" height="300px"></img>
-      <h2 style={{ margin: 15 }}>
+      <h2>
         Hello! My name is Mia Mauro, and I'm currently studying web development
         in the University of Denver's Full-Stack Coding program. I live in Des
         Moines, Iowa, but was previously traveling the country full time as a
