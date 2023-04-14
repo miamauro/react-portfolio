@@ -1,29 +1,29 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Nav.css";
 
 function Nav() {
   return (
     <ul className="nav flex-column">
       <li className="nav-link">
-        <Link to="/react-portfolio" className="test">
+        <NavLink to="/react-portfolio" className="test">
           About
-        </Link>
+        </NavLink>
       </li>
       <li className="nav-link">
-        <Link to="/react-portfolio/portfolio" className="test">
+        <NavLink to="/react-portfolio/portfolio" className="test">
           Portfolio
-        </Link>
+        </NavLink>
       </li>
       <li className="nav-link">
-        <Link to="/react-portfolio/contact" className="test">
+        <NavLink to="/react-portfolio/contact" className="test">
           Contact
-        </Link>
+        </NavLink>
       </li>
       <li className="nav-link">
-        <Link to="/react-portfolio/resume" className="test">
+        <NavLink to="/react-portfolio/resume" className="test">
           Resume
-        </Link>
+        </NavLink>
       </li>
     </ul>
   );
