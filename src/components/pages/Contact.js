@@ -7,9 +7,6 @@ function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    e.target.user_name.value = "";
-    e.target.user_email.value = "";
-    e.target.message.value = "";
 
     emailjs
       .sendForm(
@@ -26,6 +23,9 @@ function Contact() {
           console.log(error.text);
         }
       );
+    e.target.user_name.value = "";
+    e.target.user_email.value = "";
+    e.target.message.value = "";
   };
 
   return (
