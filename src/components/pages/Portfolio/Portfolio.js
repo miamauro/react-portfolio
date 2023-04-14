@@ -1,11 +1,11 @@
 import React from "react";
-import Project from "../Project/Project";
-import travelBuddy from "../../images/travbuddy.png";
-import discoveringDenver from "../../images/discdenv.png";
-import regexTut from "../../images/regextut.png";
-import socialNetApi from "../../images/socialnetapi.png";
-import pwGen from "../../images/pwgen.png";
-import codeQuiz from "../../images/codequiz.png";
+import Project from "../../Project/Project";
+import travelBuddy from "../../../images/travbuddy.png";
+import discoveringDenver from "../../../images/discdenv.png";
+import regexTut from "../../../images/regextut.png";
+import socialNetApi from "../../../images/socialnetapi.png";
+import pwGen from "../../../images/pwgen.png";
+import codeQuiz from "../../../images/codequiz.png";
 
 const projects = [
   {

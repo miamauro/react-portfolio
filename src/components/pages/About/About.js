@@ -1,6 +1,6 @@
 import React from "react";
-import headshot from "../../images/headshot.jpeg";
-import "./About.css"
+import headshot from "../../../images/headshot.jpeg";
+import "./About.css";
 
 function About() {
   return (

@@ -1,7 +1,7 @@
 .footerIcon {
-  fill: #a57c8f;
+  fill: var(--dustyPink);
 }
 
 .footerIcon:hover {
-  fill: #592d43;
+  fill: var(--garnet);
 }

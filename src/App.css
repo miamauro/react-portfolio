@@ -7,8 +7,14 @@
   color: #592d43;
 }
 
+:root {
+  --ivory: #f0e8e5;
+  --garnet: #592d43;
+  --dustyPink: #a57c8f;
+  --dustyPurple: #78657c;
+}
+
 .content {
   padding-top: 70px;
   padding-bottom: 70px;
 }
-

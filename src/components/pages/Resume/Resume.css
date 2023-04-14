@@ -5,7 +5,7 @@ li {
 
 #res {
   text-decoration: none;
-  color: #592d43;
+  color: var(--garnet);
   font-size: 20px;
   border-style: solid;
   border-radius: 10px;
@@ -13,7 +13,7 @@ li {
 }
 
 #res:hover {
-  color: #a57c8f;
+  color: var(--dustyPink);
 }
 
 #skills {

@@ -1,13 +1,13 @@
 .navOpts {
   text-decoration: none;
   font-size: 36px;
-  color: #a57c8f;
+  color: var(--dustyPink);
 }
 
 .navOpts:hover {
-  color: #592d43;
+  color: var(--garnet);
 }
 
 .active {
-  color: #592d43;
+  color: var(--garnet);
 }

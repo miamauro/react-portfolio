@@ -1,0 +1,34 @@
+#form {
+  height: 500px;
+  border-style: solid;
+  border-radius: 20px;
+  background-color: var(--garnet);
+  padding: 70px;
+}
+
+form {
+  background-color: var(--garnet);
+}
+
+.formHeaderText {
+  color: var(--ivory);
+
+  background-color: var(--garnet);
+}
+
+.formText {
+  font-size: large;
+  color: var(--dustyPink);
+  background-color: var(--garnet);
+}
+
+#btn {
+  margin: 15px;
+  width: 100px;
+  background-color: var(--dustyPink);
+  border-color: var(--dustyPink);
+}
+
+#btn:hover {
+  border-color: var(--dustyPurple);
+}
