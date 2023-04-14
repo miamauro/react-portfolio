@@ -1,3 +1,25 @@
 li {
-    list-style-type: none;
+  list-style-type: none;
+}
+
+#res {
+font-size: medium;
+}
+
+#skills {
+  position: relative;
+  height: 500px;
+  /* border-style: solid; */
+}
+
+#front {
+  position: absolute;
+  top: 8px;
+  left: 200px;
+}
+
+#back {
+  position: absolute;
+  bottom: 8px;
+  right: 200px;
 }
