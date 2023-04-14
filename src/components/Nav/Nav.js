@@ -6,7 +6,7 @@ function Nav() {
   return (
     <ul className="nav flex-column">
       <li className="nav-link">
-        <NavLink to="/react-portfolio" className="navOpts" end>
+        <NavLink to="/react-portfolio/" className="navOpts" end>
           About
         </NavLink>
       </li>

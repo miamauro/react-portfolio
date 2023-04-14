@@ -17,7 +17,7 @@ function App() {
         </div>
         <div className="col-8 text-center content">
           <Routes>
-            <Route exact path="/react-portfolio" element={<About />} />
+            <Route exact path="/react-portfolio/" element={<About />} />
             <Route
               exact
               path="/react-portfolio/portfolio"
