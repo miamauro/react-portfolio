@@ -1,11 +1,15 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import "./Contact.css";
 
 function Contact() {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
+    e.target.user_name.value = "";
+    e.target.user_email.value = "";
+    e.target.message.value = "";
 
     emailjs
       .sendForm(
@@ -25,15 +29,23 @@ function Contact() {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" className="form-control" name="user_name" />
-      <label>Email</label>
-      <input type="email" className="form-control" name="user_email" />
-      <label>Message</label>
-      <textarea name="message"  className="form-control"/>
-      <input type="submit" value="Send" className="btn btn-primary"/>
-    </form>
+    <div id="form">
+      <h3>Let's get in touch!</h3>
+      <form ref={form} onSubmit={sendEmail}>
+        <label>Name</label>
+        <input type="text" className="form-control" name="user_name" />
+        <label>Email</label>
+        <input type="email" className="form-control" name="user_email" />
+        <label>Message</label>
+        <textarea name="message" className="form-control" />
+        <input
+          type="submit"
+          value="Send"
+          className="btn btn-primary"
+          id="btn"
+        />
+      </form>
+    </div>
   );
 }
 
