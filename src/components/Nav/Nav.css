@@ -1,6 +1,6 @@
 .navOpts {
   text-decoration: none;
-  font-size: 36px;
+  font-size: 3rem;
   color: var(--dustyPink);
 }
 
@@ -11,3 +11,9 @@
 .active {
   color: var(--garnet);
 }
+
+/* @media screen and (max-width: 700px) {
+  .navOpts {
+    font-size: 1.5rem;
+  }
+} */

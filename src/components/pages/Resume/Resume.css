@@ -1,34 +1,22 @@
+h2 {
+  font-size: 2.75rem;
+}
+
 li {
   list-style-type: none;
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 #res {
   text-decoration: none;
   color: var(--garnet);
-  font-size: 20px;
+  font-size: 1.25rem;
   border-style: solid;
   border-radius: 10px;
   padding: 4px;
 }
 
-#res:hover {
-  color: var(--dustyPink);
-}
-
-#skills {
-  position: relative;
-  height: 500px;
-}
-
-#front {
-  position: absolute;
-  top: 8px;
-  left: 200px;
-}
-
-#back {
-  position: absolute;
-  bottom: 8px;
-  right: 200px;
+#res:hover, #res svg {
+  color: var(--dustyPurple);
+  fill: var(--dustyPurple)
 }

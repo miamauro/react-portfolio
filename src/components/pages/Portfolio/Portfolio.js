@@ -48,7 +48,7 @@ const projects = [
 
 function Portfolio() {
   return (
-    <div className="row">
+    <div className="row justify-content-around">
       {projects.map((obj, i) => (
         <Project
           id={i}

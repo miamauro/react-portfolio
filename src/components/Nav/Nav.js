@@ -7,22 +7,22 @@ function Nav() {
     <ul className="nav flex-column">
       <li className="nav-link">
         <NavLink to="/react-portfolio/" className="navOpts" end>
-          About
+          about
         </NavLink>
       </li>
       <li className="nav-link">
         <NavLink to="/react-portfolio/portfolio" className="navOpts">
-          Portfolio
+          portfolio
         </NavLink>
       </li>
       <li className="nav-link">
         <NavLink to="/react-portfolio/contact" className="navOpts">
-          Contact
+          contact
         </NavLink>
       </li>
       <li className="nav-link">
         <NavLink to="/react-portfolio/resume" className="navOpts">
-          Resume
+          resume
         </NavLink>
       </li>
     </ul>

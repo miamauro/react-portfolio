@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <div className="row">
-        <div className="col col-3 text-end">
+        <div className="col col-3 text-end navigation">
           <Header />
         </div>
         <div className="col-8 text-center content">
