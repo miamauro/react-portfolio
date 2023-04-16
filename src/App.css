@@ -16,11 +16,17 @@
 }
 
 .navigation {
-  padding-top: 2rem;
+  padding-top: 1.25rem;
 }
 
 .content {
   margin-left: 2.5rem;
   padding-top: 5.5rem;
   padding-bottom: 6rem;
+}
+
+@media screen and (max-width: 900px) {
+  .navigation {
+    display: flex-row;
+  }
 }
