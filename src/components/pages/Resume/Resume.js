@@ -21,7 +21,7 @@ function Resume() {
         </svg>
         Download My Resume
       </a>
-      <h2>Front-End Skills</h2>
+      <h2 className="skillsHeader">Front-End Skills</h2>
       <ul>
         <li>HTML</li>
         <li>CSS</li>
@@ -29,7 +29,7 @@ function Resume() {
         <li>React</li>
         <li>Bootstrap</li>
       </ul>
-      <h2>Back-End Skills</h2>
+      <h2 className="skillsHeader">Back-End Skills</h2>
       <ul>
         <li>APIs</li>
         <li>Node</li>

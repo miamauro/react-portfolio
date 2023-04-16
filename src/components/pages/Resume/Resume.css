@@ -1,4 +1,4 @@
-h2 {
+.skillsHeader {
   font-size: 2.75rem;
 }
 
@@ -16,7 +16,8 @@ li {
   padding: 4px;
 }
 
-#res:hover, #res svg {
+#res:hover,
+#res svg {
   color: var(--dustyPurple);
-  fill: var(--dustyPurple)
+  fill: var(--dustyPurple);
 }
