@@ -12,9 +12,9 @@ function About() {
         Moines, Iowa, but was previously traveling the country full time as a
         registered nurse. <br /> <br />
         After four years in the healthcare industry, my love for learning lead
-        me to back to the classroom. I am thrilled to utilize my critical
-        thinking skills - along with a diverse range of talents - in a whole new
-        light! I look forward to connecting with you.
+        me back to the classroom. I am thrilled to utilize my critical thinking
+        skills - along with a diverse range of talents - in a whole new light! I
+        look forward to connecting with you.
       </h2>
     </div>
   );
