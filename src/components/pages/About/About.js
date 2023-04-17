@@ -15,7 +15,7 @@ function About() {
         me back to the classroom. I am thrilled to utilize my critical thinking
         skills - along with a diverse range of talents - in a whole new light! I
         look forward to connecting with you.
-      </h2>
+      </h2>k
     </div>
   );
 }
