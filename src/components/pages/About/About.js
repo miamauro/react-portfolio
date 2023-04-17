@@ -5,8 +5,8 @@ import "./About.css";
 function About() {
   return (
     <div>
-      <img src={headshot} alt="headshot"></img>
-      <h2>
+      <img src={headshot} alt="headshot" id="headshot"></img>
+      <h2 id="about">
         Hello! My name is Mia Mauro, and I'm currently studying web development
         in the University of Denver's Full-Stack Coding program. I live in Des
         Moines, Iowa, but was previously traveling the country full time as a

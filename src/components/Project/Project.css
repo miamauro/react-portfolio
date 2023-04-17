@@ -6,3 +6,7 @@
 .card-link:hover {
   color: var(--garnet);
 }
+
+.card-text {
+  font-size: 1.2rem;
+}
