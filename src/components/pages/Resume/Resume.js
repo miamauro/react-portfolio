@@ -44,6 +44,8 @@ function Resume() {
         <li>Collaborative Coding</li>
         <li>Agile Development</li>
         <li>Git</li>
+        <li>Wireframing</li>
+        <li>Kanban</li>
         <li>Leadership</li>
         <li>Communication</li>
         <li>Time Management</li>
