@@ -39,6 +39,17 @@ function Resume() {
         <li>REST</li>
         <li>GraphQL</li>
       </ul>
+      <h2 className="skillsHeader">Misc. Skills</h2>
+      <ul>
+        <li>Collaborative Coding</li>
+        <li>Agile Development</li>
+        <li>Git</li>
+        <li>Leadership</li>
+        <li>Communication</li>
+        <li>Time Management</li>
+        <li>Organization</li>
+        <li>Staff Development</li>
+      </ul>
     </>
   );
 }
