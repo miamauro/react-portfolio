@@ -12,7 +12,7 @@ form {
 
 .formHeaderText {
   color: var(--ivory);
-font-size: 2.25rem;
+  font-size: 2.25rem;
   background-color: var(--garnet);
 }
 
@@ -25,6 +25,7 @@ font-size: 2.25rem;
 #btn {
   margin: 1rem;
   width: 6rem;
+  color: var(--ivory);
   background-color: var(--dustyPink);
   border-color: var(--dustyPink);
 }
