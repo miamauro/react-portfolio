@@ -1,12 +1,16 @@
-.card-link {
-  text-decoration: none;
-  color: var(--dustyPink);
-}
-
-.card-link:hover {
-  color: var(--garnet);
-}
-
 .card-text {
   font-size: 1.2rem;
+} 
+
+#app-link {
+  color: var(--ivory);
+  background-color: var(--dustyPink);
+  border-color: var(--dustyPink);
+  margin: 1rem;
+}
+
+#app-link:hover {
+  background-color: var(--garnet);
+  border-color: var(--garnet);
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
