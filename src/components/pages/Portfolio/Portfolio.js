@@ -8,6 +8,7 @@ import pwGen from "../../../images/pwgen.png";
 import codeQuiz from "../../../images/codequiz.png";
 import readmeGen from "../../../images/readmegen.png";
 import empTracker from "../../../images/emptracker.png";
+import theKitchen from "../../../images/theKitchen.png";
 
 const projects = [
   {
@@ -65,6 +66,13 @@ const projects = [
     repo: "https://github.com/miamauro/code-quiz",
     img: codeQuiz,
     text: "an application that allows the user to navigate through a timed coding quiz of multiple choice questions",
+  },
+  {
+    title: "The Kitchen",
+    link: "https://gentle-shelf-99079.herokuapp.com/",
+    repo: "https://github.com/hollyhleal/the-kitchen",
+    img: theKitchen,
+    text: "a full-stack application to be used by patrons of a pickleball business in order to reserve courts",
   },
 ];
 
