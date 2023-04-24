@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.b7416bc2.css",
-    "main.js": "/react-portfolio/static/js/main.7416606f.js",
+    "main.js": "/react-portfolio/static/js/main.c227065b.js",
+    "static/media/theKitchen.png": "/react-portfolio/static/media/theKitchen.52555d7644d81f30971d.png",
     "static/media/travbuddy.png": "/react-portfolio/static/media/travbuddy.ba89d2e95f27eebfb9e3.png",
     "static/media/discdenv.png": "/react-portfolio/static/media/discdenv.253cda073345ea22e729.png",
     "static/media/headshot.jpeg": "/react-portfolio/static/media/headshot.8ab39a3fbab64e5803f1.jpeg",
@@ -14,10 +15,10 @@
     "static/media/mauroResume.pdf": "/react-portfolio/static/media/mauroResume.986f620271237c0541ea.pdf",
     "index.html": "/react-portfolio/index.html",
     "main.b7416bc2.css.map": "/react-portfolio/static/css/main.b7416bc2.css.map",
-    "main.7416606f.js.map": "/react-portfolio/static/js/main.7416606f.js.map"
+    "main.c227065b.js.map": "/react-portfolio/static/js/main.c227065b.js.map"
   },
   "entrypoints": [
     "static/css/main.b7416bc2.css",
-    "static/js/main.7416606f.js"
+    "static/js/main.c227065b.js"
   ]
 }
