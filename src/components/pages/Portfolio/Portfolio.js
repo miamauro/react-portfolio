@@ -8,7 +8,7 @@ import pwGen from "../../../images/pwgen.png";
 import codeQuiz from "../../../images/codequiz.png";
 import readmeGen from "../../../images/readmegen.png";
 import empTracker from "../../../images/emptracker.png";
-import theKitchen from "../../../images/theKitchen.png";
+import noteTaker from "../../../images/noteTaker.png";
 
 const projects = [
   {
@@ -68,11 +68,11 @@ const projects = [
     text: "an application that allows the user to navigate through a timed coding quiz of multiple choice questions",
   },
   {
-    title: "The Kitchen",
-    link: "https://gentle-shelf-99079.herokuapp.com/",
-    repo: "https://github.com/hollyhleal/the-kitchen",
-    img: theKitchen,
-    text: "a full-stack application to be used by patrons of a pickleball business in order to reserve courts",
+    title: "Note Taker",
+    link: "https://shielded-reaches-96224.herokuapp.com/",
+    repo: "https://github.com/miamauro/note-taker",
+    img: noteTaker,
+    text: "an application that allows the user to write and save notes",
   },
 ];
 
