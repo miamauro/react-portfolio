@@ -2,7 +2,6 @@ import React from "react";
 import Project from "../../Project/Project";
 import travelBuddy from "../../../images/travbuddy.png";
 import discoveringDenver from "../../../images/discdenv.png";
-import mash from "../../../images/mash.png";
 import regexTut from "../../../images/regextut.png";
 import socialNetApi from "../../../images/socialnetapi.png";
 import pwGen from "../../../images/pwgen.png";
@@ -18,13 +17,6 @@ const projects = [
     repo: "https://github.com/miamauro/discovering-denver",
     img: discoveringDenver,
     text: "a full-stack application allowing users to learn more about Denver hot spots",
-  },
-  {
-    title: "MASH",
-    link: "https://miamauro.github.io/MASH/",
-    repo: "https://github.com/miamauro/MASH",
-    img: mash,
-    text: "a simple but fun future-predicting game that you probably played as a kid!",
   },
   {
     title: "Regex Tutorial",
